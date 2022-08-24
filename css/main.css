@@ -129,6 +129,7 @@ body{
     border-radius: 10px;
     padding: 30px;
     position: relative;
+    z-index: 5;
 }
 form{
 
@@ -158,6 +159,8 @@ form{
 .box-image img{
     width: 100%;
     height: 100%;
+    background-color: black;
+    padding: 10px;
     
 }
 .loginform form .box1{
@@ -171,12 +174,17 @@ form{
     width:100%;
     font-size: 15px;
     padding-left:60px;
-    background:gray;
-    color:goldenrod;
+    /* background:gray; */
+    outline: none;
     
 }
+.loginform form .box1 input:focus{
+    border-color: #c56cf0;
+    background:#ffcccc;
+    /* color: #fff; */
+}
 .loginform form .box1 input[type="text"]{
-    color: #fff;
+    /* color: #fff; */
 }
 .loginform form .box1 i{
     position: absolute;
@@ -202,16 +210,16 @@ form{
     margin-left: 30px;
     text-align: center;
     width: 300px;
-    background: #ffcccc;
-    color:gray;
+    background:#e6cbcbc9;
+    color:seashell;
     border-radius: 10px;
     padding: 20px;
-    position: relative;
-}
-.base p{
-    position: absolute;
     z-index: 3;
-    top: 10px;
-    left: 130px;
+    position: absolute;
+    top: 350px;
+}
+.base:hover{
+    color: #27ae60;
+    
 }
 

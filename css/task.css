@@ -90,3 +90,54 @@
     width: 50px;
     height: 50px;
 }
+
+
+/* task-4 */
+.info .card-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.info img{
+    padding-top: 30px;
+    margin-left: 80px;
+    align-items: center;
+}
+.info .card-text span{
+
+}
+.info .card-text {
+    color:#6c757d;
+    
+}
+.info .card-text span{
+    font-weight: bold;
+}
+.info .layer {
+    
+}
+.info .layer i {
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 8px;
+    color: #5a7baa;
+}
+.card-footer{
+    background: white;
+    color: rgba(17, 15, 15, 0.692);
+}
+.study{
+    display: inline-block;
+    background-color:#b0c1d8;
+    padding: 2px 5px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.info .layer 
+
+
+
+
+
+

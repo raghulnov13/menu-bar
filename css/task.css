@@ -25,39 +25,39 @@
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color:rgb(24, 24, 201);
+    color: rgb(24, 24, 201);
 }
 
 /* Task-2 */
-.content{
-    
+.content {}
 
-}
-.content{
+.content {
     display: flex;
     justify-content: space-between;
 }
-.task-icon{
-    
-}
-.task-icon i{
+
+.task-icon {}
+
+.task-icon i {
     font-size: 28px;
     margin-right: 15px;
     color: blue;
     margin-top: 5px;
 }
-.heading{
 
-}
-.heading h4{
+.heading {}
+
+.heading h4 {
     color: #012970;
     font-size: 20px;
 }
-.heading p{
+
+.heading p {
     font-size: 15px;
     color: #848484;
 }
-.section-title h2{
+
+.section-title h2 {
     color: #012970;
     margin-top: 20px;
     margin-bottom: 50px;
@@ -65,10 +65,9 @@
 }
 
 /* Task-3 */
-.section-head{
+.section-head {}
 
-}
-.section-head h2{
+.section-head h2 {
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 700;
@@ -78,7 +77,8 @@
     display: inline-block;
     border-radius: 50px;
 }
-.task-3 ul li i{
+
+.task-3 ul li i {
     background: #fff;
     display: inline-block;
     box-shadow: 0px 6px 15px rgb(16 110 234 / 12%);
@@ -93,51 +93,100 @@
 
 
 /* task-4 */
-.info .card-title{
+.info .card-title {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 15px;
 }
-.info img{
+
+.info img {
     padding-top: 30px;
     margin-left: 80px;
     align-items: center;
 }
-.info .card-text span{
+
+.info .card-text span {}
+
+.info .card-text {
+    color: #6c757d;
 
 }
-.info .card-text {
-    color:#6c757d;
-    
-}
-.info .card-text span{
+
+.info .card-text span {
     font-weight: bold;
 }
-.info .layer {
-    
-}
+
+.info .layer {}
+
 .info .layer i {
     display: inline-block;
     font-size: 20px;
     padding-right: 8px;
     color: #5a7baa;
 }
-.card-footer{
+
+.card-footer {
     background: white;
     color: rgba(17, 15, 15, 0.692);
 }
-.study{
+
+.study {
     display: inline-block;
-    background-color:#b0c1d8;
+    background-color: #b0c1d8;
     padding: 2px 5px;
     margin-top: 20px;
     border-radius: 8px;
     font-size: 14px;
 }
-.info .layer 
 
+.info .layer .fa-arrow-right {
+    display: inline-block;
 
+}
 
+/* contact */
+.contact h2 {
+    font-size: 25px;
+}
+.contact p {
+    font-size: 18px;
+}
 
+.info-box {
+    margin-top: 20px;
+    box-shadow: rgb(214 215 216 / 60%) 0px 0px 30px;
+    text-align: center;
+    padding: 30px;
+}
 
+.info-box i {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: rgb(233, 159, 21);
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted rgb(248, 212, 213);
+}
 
+.info-box h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+.info-box p {
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+form {
+    box-shadow: rgb(214 215 216 / 60%) 0px 0px 30px;
+    padding: 30px;
+}
+
+form button {
+    background: rgb(233, 159, 21);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+}
